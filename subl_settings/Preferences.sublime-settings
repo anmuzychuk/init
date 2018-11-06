@@ -1,0 +1,43 @@
+{
+	"bold_folder_labels": true,
+	"caret_style": "solid",
+	"color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night.tmTheme",
+	"copy_with_empty_selection": false,
+	"drag_text": false,
+	"draw_minimap_border": true,
+	"draw_white_space": "all",
+	"enable_tab_scrolling": false,
+	"fold_buttons": false,
+	"folder_exclude_patterns":
+	[
+		"__pycache__"
+	],
+	"font_face": "Source Code Pro",
+	"font_options":
+	[
+		"subpixel_antialias",
+		"no_bold",
+		"no_italic",
+		"no_round"
+	],
+	"font_size": 11,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_active"
+	],
+	"line_padding_botoom": 1,
+	"line_padding_top": 1,
+	"scroll_past_end": true,
+	"shift_tab_unindent": true,
+	"theme": "Boxy Tomorrow.sublime-theme",
+	"theme_icons_materialized": true,
+	"theme_size_xs": true,
+	// "spell_check": true,
+	//"dictionary": "Packages/Language - English/en_US.dic"
+}

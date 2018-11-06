@@ -1,0 +1,16 @@
+{
+	"python_interpreter": "/usr/local/bin/python3",
+	"anaconda_linting": false,
+	"pep8": false,
+	"auto_formatting": true,
+	"autoformat_ignore": 
+	[
+		"E501" // Try to make lines fit within --max-line-length
+	],
+
+	"pep8_ignore":
+	[
+		"E501"
+	]
+
+}
