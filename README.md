@@ -51,10 +51,11 @@ Configure Git commit messages:
 Tutorial on how to white a good commit messages by [Chris Beams](https://chris.beams.io/posts/git-commit/)
 
 
-# change the text editor used by git commit 
-git config --global core.editor "'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' --wait --new-window"
+To change the text editor used by git commit 
+	
+	git config --global core.editor "'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' --wait --new-window"
 
-# to add ruler specific to git commit messages (actually two rulers)
+To add ruler specific to git commit messages (actually two rulers)
 	
 	1. open commit message in sublime
 	2. Pref -> Settings Syntax-Specific 
@@ -63,25 +64,27 @@ git config --global core.editor "'/Applications/Sublime Text.app/Contents/Shared
 		}
 
 
-# link subl
-ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
+To create a link to _subl_ 
+	
+	ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
 
 
-# Example to customize fonts
-- select and download fonts (e.g. ubuntu mono font)
-- install font on system level
-- add some options to subl settings, eg.:
+To customize fonts:
 
-	{
-		
-		"font_face": "Ubuntu Mono",
-		
-		"font_options":[
-			"subpixel_antialias",
-			"no_bold",
-			"no_italic",
-		]
-	}
+	- select and download fonts (e.g. ubuntu mono font)
+	- install font on system level
+	- add some options to subl settings, eg.:
+
+		{
+
+			"font_face": "Ubuntu Mono",
+
+			"font_options":[
+				"subpixel_antialias",
+				"no_bold",
+				"no_italic",
+			]
+		}
 
 
 
