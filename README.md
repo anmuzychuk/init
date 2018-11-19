@@ -61,6 +61,7 @@ Tutorial on how to white a [good commit messages](https://chris.beams.io/posts/g
 	Set your email address: git config --global user.email "MY_NAME@example.com"
 
 **Link _subl_** On mac, it would be useful to create a link to sublime:
+
 	$ ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
 
 
@@ -104,7 +105,7 @@ Customize Fonts
 		$ unzip ~/Downloads/source-code-pro.zip -d ~/Downloads/scp
 		$ rm ~/Downloads/source-code-pro.zip
 
-		(ubuntu)sudo apt update && sudo apt -y install font-manager
+		(ubuntu) $ sudo apt update && sudo apt -y install font-manager
 
 		Next, Add new font with Font Manager (mac, ubuntu)
 
