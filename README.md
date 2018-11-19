@@ -60,10 +60,14 @@ Tutorial on how to white a [good commit messages](https://chris.beams.io/posts/g
 	Set your username: git config --global user.name "FIRST_NAME LAST_NAME"
 	Set your email address: git config --global user.email "MY_NAME@example.com"
 
+**Link _subl_** On mac, it would be useful to create a link to sublime:
+	$ ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
 
-To change the text editor used by git commit 
+
+To change the text editor used by git commit (assuming _subl_ command is linked to SublimeText3)
 	
-	git config --global core.editor "'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' --wait --new-window"
+	$git config --global core.editor "subl --wait --new-window"
+
 
 To add ruler specific to git commit messages (actually two rulers)
 	
@@ -73,10 +77,6 @@ To add ruler specific to git commit messages (actually two rulers)
 			"rulers": [50, 72]
 		}
 
-
-To create a link to _subl_ on mac
-	
-	ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
 
 
 Customize Fonts
@@ -104,16 +104,9 @@ Customize Fonts
 		$ unzip ~/Downloads/source-code-pro.zip -d ~/Downloads/scp
 		$ rm ~/Downloads/source-code-pro.zip
 
-		# ubuntu
-		$ sudo apt update && sudo apt -y install font-manager
+		(ubuntu)sudo apt update && sudo apt -y install font-manager
 
-		# Open Font Manager & add new font 
-
-
-
-
-
-
+		Next, Add new font with Font Manager (mac, ubuntu)
 
 
 Sublime Text 3 Frequently Used Commands:
