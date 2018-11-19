@@ -14,8 +14,7 @@ Following bash setting are borrowed from Corey Schafer's [dotfiles](https://gith
 	.gitignore
 
 
-Sublime Text 3 setup is inspired by awesome [series of tutorials by 
-Corey Schafer](https://www.youtube.com/watch?v=zVLJfrIwEP8&list=PL-osiE80TeTtHH8BZngXEsLPGotQxZa6z) and [video course by Daniel Bader](https://training.realpython.com/courses/sublime-python/).
+Sublime Text 3 setup is inspired by [awesome series of sublime text tutorials](https://www.youtube.com/watch?v=zVLJfrIwEP8&list=PL-osiE80TeTtHH8BZngXEsLPGotQxZa6z) by Corey Schafer and [video course](ttps://training.realpython.com/courses/sublime-python/) by Daniel Bader.
 
 
 
@@ -26,29 +25,40 @@ Prerequisites:
 -------------
 * Install Sublime Text 3
 * Install Package Control 
-* Install python3 and flake8 package 
+* Install python3 and flake8 package
+* Install Git
 
 
-Sublime Packages:
------------------
+Sublime Package List:
+---------------------
 	Package Control
+
 	Anaconda
-	Boxy Theme
-	BracketHighlighter
-	GitGutter
-	SideBarEnhancements
 	SublimeLinter
 	SublimeLinter-flake8
-	Tomorrow Night Italics Color Scheme
+	
+	GitGutter
+
+	MarkdownPreview
+
+	BracketHighlighter
+	SideBarEnhancements
 	Zen Tabs
 
+	Boxy Theme
+	Tomorrow Color Schemes (needs to be installed before below package)
+	Tomorrow Night Italics Color Scheme
 
 
-
-Configure Git commit messages:
+Configure Git commit messages
 -----------------------------
+Tutorial on how to white a [good commit messages](https://chris.beams.io/posts/git-commit/) by Chris Beams.
 
-Tutorial on how to white a good commit messages by [Chris Beams](https://chris.beams.io/posts/git-commit/)
+
+**Note** Don't forget to configure user.name and email prior to configure commit messages with sublime:
+
+	Set your username: git config --global user.name "FIRST_NAME LAST_NAME"
+	Set your email address: git config --global user.email "MY_NAME@example.com"
 
 
 To change the text editor used by git commit 
@@ -64,27 +74,43 @@ To add ruler specific to git commit messages (actually two rulers)
 		}
 
 
-To create a link to _subl_ 
+To create a link to _subl_ on mac
 	
 	ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
 
 
-To customize fonts:
+Customize Fonts
+---------------
 
-	- select and download fonts (e.g. ubuntu mono font)
-	- install font on system level
-	- add some options to subl settings, eg.:
+		- select and download fonts (e.g. ubuntu mono font)
+		- install font on system level
+		- add some options to subl settings, eg.:
 
-		{
+			{
 
-			"font_face": "Ubuntu Mono",
+				"font_face": "Ubuntu Mono",
 
-			"font_options":[
-				"subpixel_antialias",
-				"no_bold",
-				"no_italic",
-			]
-		}
+				"font_options":[
+					"subpixel_antialias",
+					"no_bold",
+					"no_italic",
+				]
+			}
+
+**Optional: Download and install Font (Source Code Pro)**
+
+		
+		$ wget -O ~/Downloads/source-code-pro.zip https://www.fontsquirrel.com/fonts/download/source-code-pro
+		$ unzip ~/Downloads/source-code-pro.zip -d ~/Downloads/scp
+		$ rm ~/Downloads/source-code-pro.zip
+
+		# ubuntu
+		$ sudo apt update && sudo apt -y install font-manager
+
+		# Open Font Manager & add new font 
+
+
+
 
 
 

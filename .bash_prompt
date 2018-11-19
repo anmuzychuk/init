@@ -1,5 +1,4 @@
-###
-
+# Enchanced terminal view for user name, working directory and git
 
 prompt_git() {
 	local s='';
